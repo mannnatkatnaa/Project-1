@@ -1,7 +1,7 @@
 const ratingEls = document.querySelectorAll(".rating");
-const btnEl = document.getElementById("btn")
+const btnEl = document.getElementById("btn");
 
-const containerEl = document.getElementById("container")
+const containerEl = document.getElementById("container");
 
 let selectedRating = "";
 ratingEls.forEach((ratingEl) =>{
@@ -27,10 +27,10 @@ btnEl.addeventslistener("click",()=>{
        </p>
        </br>
        </br>`
-    }
-})
-function removeActive(){
+    };
+});
+function removeActive({
     ratingEls.forEach((ratingEl) => {
         ratingEl.classlist.remove("Active");
     });
-}
+});
