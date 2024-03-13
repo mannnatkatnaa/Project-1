@@ -29,8 +29,8 @@ btnEl.addeventslistener("click",()=>{
        </br>`
     };
 });
-function removeActive({
+function removeActive(){
     ratingEls.forEach((ratingEl) => {
         ratingEl.classlist.remove("Active");
     });
-});
+};
